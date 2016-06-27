@@ -8,7 +8,7 @@ class Deque
   public
 
   def initialize(size)
-    self.queue = Array.new size + 2
+    self.queue = Array.new size + 2 # use two extra space to fulfil size n
     self.head = 0
     self.tail = head + 1
   end

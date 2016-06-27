@@ -8,7 +8,7 @@ class Queue
   public
 
   def initialize(size)
-    self.queue = Array.new size + 1
+    self.queue = Array.new size + 1 # use one extra space to fulfil size n
     self.head = self.tail = 0
   end
 
